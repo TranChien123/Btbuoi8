@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoForm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
+</head>
+
+<body>
+    <div class="home">
+        <div class="Header">
+            <h1 class="formheader">Form Validation</h1>
+            <p class="formp">Validation of the form is made possible using powerful validator plugin for bootstrap.<a
+                    href="" style="color:blue">Learn more about Bootstrap Validator</a></p>
+        </div>
+        <div class="container">
+            <div class="contents">
+                <p>Email address</p>
+                <input type="email" name="email" class="email" required pattern=".+@globex\.com" placeholder="Email Address">
+            </div>
+            <div class="wrap">
+                <div class="contents1">
+                    <p>Password</p>
+                    <input type="password" name="password" class="password" placeholder="Password" style="height: 30px;">
+                </div>
+                <div class="contents2">
+                    <p>Confirm Password</p>
+                    <input type="Confirm Password" name="Confirm" class="Confirm Password" placeholder="Confirm Password" style="height: 30px;">
+                </div>
+            </div>
+            <div class="contents3">
+                <p>Regular select</p>
+                <select class="formcontrol">
+                    <option value="Califormia">Califormia</option>
+                    <option value="Newyork">Newyork</option>
+                    <option value="Boston">Boston</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Colorado">Colorado</option>
+                </select>
+            </div>
+            <div class="contents4">
+                <p>Multiselect</p>
+                <input type="Multiselect" name="Multiselect" class="Multiselect" style="height:30px;">
+            </div>
+        </div>
+
+        <div class="container1">
+            <div class="contents5">
+                <p>Section Example</p>
+            </div>
+            <div class="wrapdown">
+                <div class="contents6">
+                    <p>First Name</p>
+                    <input type="First Name" name="First Name" class="First Name" placeholder="First Name" style="height: 30px;">
+                </div>
+                <div class="contents7">
+                    <p>Last Name</p>
+                    <input type="Last Name" name="Last Name" Class="Last Name" placeholder="Last Name" style="height:30px;">
+                </div>
+            </div>
+            <div class="wrapdown">
+                <div class="contents8">
+                    <p>Date of Birth</p>
+                    <input class="multi-daterange form-control" value="03/31/2017 - 04/06/2017" style="height: 30px;">
+                </div>
+                <div class="contents9">
+                    <p>Twitter UserName</p>
+                    <input type="Twitter UserName" name="Twitter UserName" class="Twitter UserName" placeholder="Twitter Username" style="height: 30px;">
+                </div>
+            </div>
+            <div class="contents10">
+                <p>Date Range Picker</p>
+                <input type="Date Range Pick" name="Date Range Pick" class="Date Range Pick" placeholder="03/28/2017 - 04/06/2017" style="height: 30px;">
+            </div>
+            <div class="contents11">
+                <p>Example textarea</p>
+                <input type="Example textarea" name="Example textarea" class="Example textarea">
+            </div>
+            <div class="contents12">
+                <form action="tickbox">
+                    <input type="checkbox" id="tickbox" name="tickbox" value="conditions">
+                    <label for="tickbox"> I agree to terms and conditions</label>
+                </form>
+            </div>      
+        </div>
+        <div class="container2">
+            <div class="contents14">
+            <button class="submit" type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
